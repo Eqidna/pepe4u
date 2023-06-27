@@ -28,8 +28,8 @@ const Home: NextPage = () => {
           <Unstake />
         </Container>
       ) : (
-        <Container maxW="800px" centerContent>
-          <Flex h="40vh" justifyContent="center" alignItems="center">
+        <Container maxW="1000px" centerContent>
+          <Flex h="20vh" justifyContent="center" alignItems="center">
             <Heading color="red">Please connect your wallet!</Heading>
           </Flex>
         </Container>
