@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                 className={styles.card}
               >
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  BUY $QDNA ;
+                  BUY $QDNA
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
                 className={styles.card}
               >
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  Polygonscan $QDNA ;
+                  Polygonscan $QDNA
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   View the Contract Overview, execute functions, view tx and more.
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
 
               <a href="https://twitter.com/EqidnaTokenQDNA" className={styles.card}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  Follow Eqidna ;
+                  Follow Eqidna
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Stay up to date on all things #Eqidna $QDNA.
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
                 className={styles.card}
               >
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  LEARN MORE: $QDNA ;
+                  LEARN MORE: $QDNA
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Want to know more about Eqidna? Click here!
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
 
               <a href="https://github.com/Eqidna/QDNA" className={styles.card}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  github @QDNA ;
+                  github @QDNA
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>View our code! #Eqidna $QDNA.
                 </p>
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
 
               <a href="https://www.coingecko.com/" className={styles.card}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  Coingecko $QDNA ;
+                  Coingecko $QDNA
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Coming Soon. Stay Tuned!
