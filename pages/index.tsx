@@ -1,7 +1,7 @@
 import { ConnectWallet, useAddress, ThirdwebProvider, useContract, useMetadata } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
-import { Container, Heading, Flex, Box } from "@chakra-ui/react";
+import { Container, Heading, Flex, Box, Center } from "@chakra-ui/react";
 import EqidnaTokenBalance from "../components/EqidnaToken";
 import Airdrop from "../components/Airdrop";
 import Mint from "../components/Mint";
@@ -29,15 +29,14 @@ const Home: NextPage = () => {
         </Container>
       ) : (
         <Container maxW="1200px" centerContent>
-  <Flex h="2vh" justifyContent="center" alignItems="center"></Flex>
+          <Flex h="2vh" justifyContent="center" alignItems="center"></Flex>
 
-  <Heading color="black" fontSize="20px">Welcome to The Eqidna Project.</Heading>
+          <Heading color="black" fontSize="20px">Welcome to The Eqidna Project.</Heading>
 
-  <Flex h="10vh" justifyContent="center" alignItems="center">
-    <Heading color="#E42000" fontSize="25px">Please connect your wallet!</Heading>
-  </Flex>
-</Container>
-
+          <Flex h="10vh" justifyContent="center" alignItems="center">
+            <Heading color="#E42000" fontSize="25px">Please connect your wallet!</Heading>
+          </Flex>
+        </Container>
       )}
 
       <Container maxW="1200px">
@@ -51,14 +50,13 @@ const Home: NextPage = () => {
                 </span>
               </a>
             </h1>
-            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#E42000", wordWrap: "break-word" , fontWeight: "bold" }}>
-  Join the tribe and reap the rewards with #Eqidna.{" "}
-
-  <code className={styles.code}>$QDNA</code>
-</p>
-<p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "black", wordWrap: "break-word" }}>
-Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
-
+            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#E42000", wordWrap: "break-word", fontWeight: "bold" }}>
+              Join the tribe and reap the rewards with #Eqidna.{" "}
+              <code className={styles.code}>$QDNA</code>
+            </p>
+            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "black", wordWrap: "break-word" }}>
+              Eqidna allows you to stake and mint rewards directly from your wallet.
+            </p>
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>
