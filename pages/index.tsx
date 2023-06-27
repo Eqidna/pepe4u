@@ -49,6 +49,7 @@ const Home: NextPage = () => {
             </h1>
             <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "red", wordWrap: "break-word" , fontWeight: "bold" }}>
   Join the tribe and reap the rewards with #Eqidna.{" "}
+
   <code className={styles.code}>$QDNA</code>
 </p>
 <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "black", wordWrap: "break-word" }}>
@@ -91,7 +92,7 @@ Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
             <div className={styles.grid}>
               <a href="https://jolly-bird-0117.on.fleek.co" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  LEARN MORE: $QDNA
+                  Learn more: $QDNA
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Want to know more about Eqidna? Click here!
