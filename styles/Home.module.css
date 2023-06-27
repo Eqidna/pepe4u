@@ -122,3 +122,9 @@
   width: 300px; /* Adjust the width as per your requirements */
   height: 200px; /* Adjust the height as per your requirements */
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

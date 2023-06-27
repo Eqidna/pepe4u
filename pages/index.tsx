@@ -1,7 +1,7 @@
 import { ConnectWallet, useAddress, ThirdwebProvider, useContract, useMetadata } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
-import { Container, Heading, Flex } from "@chakra-ui/react";
+import { Container, Heading, Flex, Box } from "@chakra-ui/react";
 import EqidnaTokenBalance from "../components/EqidnaToken";
 import Airdrop from "../components/Airdrop";
 import Mint from "../components/Mint";
@@ -53,9 +53,8 @@ const Home: NextPage = () => {
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>
-            <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
-            className={`${styles.card} ${styles.sameSize}`}>
-
+              <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
+                className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   BUY $QDNA
                 </h2>
@@ -65,8 +64,7 @@ const Home: NextPage = () => {
               </a>
 
               <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8"
-              className={`${styles.card} ${styles.sameSize}`}>
-
+                className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Polygonscan $QDNA
                 </h2>
@@ -87,8 +85,7 @@ const Home: NextPage = () => {
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>
-            <a href="https://jolly-bird-0117.on.fleek.co"
-            className={`${styles.card} ${styles.sameSize}`}>
+              <a href="https://jolly-bird-0117.on.fleek.co" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   LEARN MORE: $QDNA
                 </h2>
@@ -114,10 +111,9 @@ const Home: NextPage = () => {
                 </p>
               </a>
               <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "red" }}>
-              {" "}
-              <code className={styles.code}>Welcome to The Eqidna Project.</code>
-            </p>
-              
+                {" "}
+                <code className={styles.code}>Welcome to The Eqidna Project.</code>
+              </p>
             </div>
           </main>
         </div>
