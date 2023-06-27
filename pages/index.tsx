@@ -70,7 +70,7 @@ const Home: NextPage = () => {
                 className={styles.card}
               >
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  Polygonscan $QDNA &rarr;
+                  Polygonscan $QDNA;
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   View the Contract Overview, execute functions, view tx and more.
