@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                 className={styles.card}
               >
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  BUY $QDNA &rarr;
+                  BUY $QDNA;
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
