@@ -29,11 +29,11 @@ const Home: NextPage = () => {
         </Container>
       ) : (
         <Container maxW="1000px" centerContent>
-          <Flex h="3vh" justifyContent="center" alignItems="center"></Flex>
+          <Flex h="6vh" justifyContent="center" alignItems="center"></Flex>
 
           <Heading color="black" fontSize="22px">Welcome to The Eqidna Project. </Heading>
 
-          <Flex h="6vh" justifyContent="center" alignItems="center">
+          <Flex h="8vh" justifyContent="center" alignItems="center">
           
           <Heading color="#E42000" fontSize="25px"> Please connect your wallet!</Heading>
 </Flex>
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         </Container>
       )}
 
-      <Container maxW="1200px">
+      <Container maxW="1150px">
         <div className={styles.container}>
           <main className={styles.main}>
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
