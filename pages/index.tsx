@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       ) : (
         <Container maxW="800px" centerContent>
           <Flex h="40vh" justifyContent="center" alignItems="center">
-            <Heading color="red">Please connect your wallet</Heading>
+            <Heading color="red">Please connect your wallet!</Heading>
           </Flex>
         </Container>
       )}
