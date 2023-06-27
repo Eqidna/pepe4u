@@ -29,27 +29,31 @@ const Home: NextPage = () => {
         </Container>
       ) : (
         <Container maxW="1000px" centerContent>
-          <Flex h="20vh" justifyContent="center" alignItems="center">
-            <Heading color="red">Please connect your wallet!</Heading>
-          </Flex>
+          <Flex h="8vh" justifyContent="center" alignItems="center">
+  <Heading color="red" fontSize="22px">Welcome to The Eqidna Project.  Please connect your wallet!</Heading>
+</Flex>
+
         </Container>
       )}
 
-      <Container maxW="1500px">
+      <Container maxW="1225px">
         <div className={styles.container}>
           <main className={styles.main}>
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
               EQIDNA TOKEN{" "}
               <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={styles.link}>
-                <span className={styles.description} style={{ color: "red", fontSize: "55px", fontWeight: "bold" }}>
+                <span className={styles.description} style={{ color: "red", fontSize: "40px", fontWeight: "bold" }}>
                   $QDNA!
                 </span>
               </a>
             </h1>
-            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "red" }}>
-              Join the tribe and reap the rewards with #Eqidna.{" "}
-              <code className={styles.code}>$QDNA</code> Eqidna allows you to stake and mint rewards directly from your wallet.
-            </p>
+            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "red", wordWrap: "break-word" , fontWeight: "bold" }}>
+  Join the tribe and reap the rewards with #Eqidna.{" "}
+  <code className={styles.code}>$QDNA</code>
+</p>
+<p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "black", wordWrap: "break-word" }}>
+Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
+
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>

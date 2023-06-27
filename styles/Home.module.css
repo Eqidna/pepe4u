@@ -3,8 +3,8 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  min-height: 5vh;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -26,24 +26,25 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .title,
 .description {
   text-align: center;
+  font-size: 35px;
 }
 
 .connect {
   margin-bottom: 3rem;
-  width: 350px;
+  width: 250px;
 }
 
 .description {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: .0rem;
+  line-height: 1.25;
+  font-size: 1.25rem;
 }
 
 .code {
@@ -73,18 +74,23 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  background-color: #272c34;
+  background-color: #430000;
   color: #0ea5e9;
   border-color: #0ea5e9;
 }
 
 .card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+}
+
+.card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
@@ -120,7 +126,7 @@
 
 .sameSize {
   width: 300px; /* Adjust the width as per your requirements */
-  height: 200px; /* Adjust the height as per your requirements */
+  height: 180px; /* Adjust the height as per your requirements */
 }
 
 .center {
