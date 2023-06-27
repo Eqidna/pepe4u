@@ -113,7 +113,10 @@ const Home: NextPage = () => {
                   Coming Soon. Stay Tuned!
                 </p>
               </a>
-
+              <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "red" }}>
+              Welcome To The #Eqidna Project.{" "}
+              <code className={styles.code}>$QDNA</code>
+            </p>
               
             </div>
           </main>
