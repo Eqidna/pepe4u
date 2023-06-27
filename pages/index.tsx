@@ -114,8 +114,8 @@ const Home: NextPage = () => {
                 </p>
               </a>
               <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "red" }}>
-              Welcome To {" "}
-              <code className={styles.code}>The #Eqidna Project. $QDNA</code>
+              {" "}
+              <code className={styles.code}>Welcome to The Eqidna Project.</code>
             </p>
               
             </div>
