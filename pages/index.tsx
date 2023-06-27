@@ -35,7 +35,7 @@ const Home: NextPage = () => {
 
           <Flex h="3.5vh" justifyContent="center" alignItems="center">
           
-          <Heading color="red" fontSize="25px"> Please connect your wallet!</Heading>
+          <Heading color="#E00000" fontSize="25px"> Please connect your wallet!</Heading>
 </Flex>
 
         </Container>
@@ -47,12 +47,12 @@ const Home: NextPage = () => {
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
               EQIDNA TOKEN{" "}
               <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={styles.link}>
-                <span className={styles.description} style={{ color: "red", fontSize: "40px", fontWeight: "bold" }}>
+                <span className={styles.description} style={{ color: "#E00000", fontSize: "40px", fontWeight: "bold" }}>
                   $QDNA!
                 </span>
               </a>
             </h1>
-            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "red", wordWrap: "break-word" , fontWeight: "bold" }}>
+            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#E00000", wordWrap: "break-word" , fontWeight: "bold" }}>
   Join the tribe and reap the rewards with #Eqidna.{" "}
 
   <code className={styles.code}>$QDNA</code>
@@ -68,7 +68,7 @@ Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   BUY $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "red" }}>
+                <p className={styles.paragraph} style={{ color: "#E00000" }}>
                   Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
                 </p>
               </a>
@@ -78,7 +78,7 @@ Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Polygonscan $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "red" }}>
+                <p className={styles.paragraph} style={{ color: "#E00000" }}>
                   View the Contract Overview, execute functions, view tx and more.
                 </p>
               </a>
@@ -87,7 +87,7 @@ Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Follow @EqidnaTokenQDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "red" }}>
+                <p className={styles.paragraph} style={{ color: "#E00000" }}>
                   Stay up to date on all things #Eqidna $QDNA.
                 </p>
               </a>
@@ -99,7 +99,7 @@ Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Learn more: $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "red" }}>
+                <p className={styles.paragraph} style={{ color: "#E00000" }}>
                   Want to know more about Eqidna? Click here!
                 </p>
               </a>
@@ -108,7 +108,7 @@ Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   github @Eqidna
                 </h2>
-                <p className={styles.paragraph} style={{ color: "red" }}>View our code! #Eqidna $QDNA.
+                <p className={styles.paragraph} style={{ color: "#E00000" }}>View our code! #Eqidna $QDNA.
                 </p>
               </a>
 
@@ -116,11 +116,11 @@ Eqidna allows you to stake and mint rewards directly from your wallet.{" "} </p>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Coingecko $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "red" }}>
+                <p className={styles.paragraph} style={{ color: "#E00000" }}>
                   Coming Soon. Stay Tuned!
                 </p>
               </a>
-              <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "red" }}>
+              <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#E00000" }}>
                 {" "}
                 <code className={styles.code}>Welcome to The Eqidna Project.</code>
               </p>
