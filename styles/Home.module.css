@@ -117,3 +117,8 @@
 .logo img {
   filter: invert(1);
 }
+
+.sameSize {
+  width: 300px; /* Adjust the width as per your requirements */
+  height: 200px; /* Adjust the height as per your requirements */
+}

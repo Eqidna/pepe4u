@@ -53,10 +53,9 @@ const Home: NextPage = () => {
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>
-              <a
-                href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
-                className={styles.card}
-              >
+            <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
+            className={`${styles.card} ${styles.sameSize}`}>
+              
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   BUY $QDNA
                 </h2>
@@ -65,10 +64,9 @@ const Home: NextPage = () => {
                 </p>
               </a>
 
-              <a
-                href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8"
-                className={styles.card}
-              >
+              <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8"
+              className={`${styles.card} ${styles.sameSize}`}>
+
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Polygonscan $QDNA
                 </h2>
@@ -77,7 +75,7 @@ const Home: NextPage = () => {
                 </p>
               </a>
 
-              <a href="https://twitter.com/EqidnaTokenQDNA" className={styles.card}>
+              <a href="https://twitter.com/EqidnaTokenQDNA" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Follow Eqidna
                 </h2>
@@ -89,10 +87,8 @@ const Home: NextPage = () => {
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>
-              <a
-                href="https://gateway.pinata.cloud/ipfs/QmWWDnPHqFpdW6CvqtS3REVjQdELDCK6hoVteFFjvXK1v9/"
-                className={styles.card}
-              >
+            <a href="https://gateway.pinata.cloud/ipfs/QmWWDnPHqFpdW6CvqtS3REVjQdELDCK6hoVteFFjvXK1v9/"
+            className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   LEARN MORE: $QDNA
                 </h2>
@@ -101,7 +97,7 @@ const Home: NextPage = () => {
                 </p>
               </a>
 
-              <a href="https://github.com/Eqidna/QDNA" className={styles.card}>
+              <a href="https://github.com/Eqidna/QDNA" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   github @QDNA
                 </h2>
@@ -109,7 +105,7 @@ const Home: NextPage = () => {
                 </p>
               </a>
 
-              <a href="https://www.coingecko.com/" className={styles.card}>
+              <a href="https://www.coingecko.com/" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Coingecko $QDNA
                 </h2>
