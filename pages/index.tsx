@@ -40,7 +40,7 @@ const Home: NextPage = () => {
           <main className={styles.main}>
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
               EQIDNA TOKEN{" "}
-              <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8#writeContract" className={styles.link}>
+              <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={styles.link}>
                 <span className={styles.description} style={{ color: "red", fontSize: "55px", fontWeight: "bold" }}>
                   $QDNA!
                 </span>
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
               </a>
 
               <a
-                href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8#writeContract"
+                href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8"
                 className={styles.card}
               >
                 <h2 className={styles.heading} style={{ color: "white" }}>
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
 
               <a href="https://twitter.com/EqidnaTokenQDNA" className={styles.card}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  Follow @EqidnaTokenQDNA &rarr;
+                  Follow Eqidna;
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Stay up to date on all things #Eqidna $QDNA.
@@ -94,30 +94,32 @@ const Home: NextPage = () => {
                 className={styles.card}
               >
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  LEARN MORE: $QDNA &rarr;
+                  LEARN MORE: $QDNA;
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Want to know more about Eqidna? Click here!
                 </p>
               </a>
 
+              <a href="https://github.com/Eqidna/QDNA" className={styles.card}>
+                <h2 className={styles.heading} style={{ color: "white" }}>
+                  github @QDNA;
+                </h2>
+                <p className={styles.paragraph} style={{ color: "red" }}>
+                  Don't Trust, Verify our code! #Eqidna $QDNA.
+                </p>
+              </a>
+
               <a href="https://www.coingecko.com/" className={styles.card}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  Coingecko $QDNA &rarr;
+                  Coingecko $QDNA;
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Coming Soon. Coming Soon. Coming Soon! Stay Tuned!
                 </p>
               </a>
 
-              <a href="https://github.com/Eqidna/QDNA" className={styles.card}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
-                  github @QDNA &rarr;
-                </h2>
-                <p className={styles.paragraph} style={{ color: "red" }}>
-                  Don&apos;t Trust, Verify our code! #Eqidna $QDNA.
-                </p>
-              </a>
+              
             </div>
           </main>
         </div>
