@@ -23,13 +23,7 @@ function EqidnaTokenBalance() {
       <Heading textAlign="center" style={{ color: 'red' }} fontSize="2xl">EQIDNA TOKEN</Heading>
       <SimpleGrid columns={1}>
         <Box textAlign="center" mb={1}>
-        <Image
-      src="/eqidna.png"
-      alt="EQIDNA Logo"
-      mx="auto" // Center horizontally
-      my="auto" // Center vertically
-      display="block" // Ensures the image takes up its own space
-    />
+        
         </Box>
         <Card p={2} m={2}>
           <Box textAlign="center" mb={5}></Box>
