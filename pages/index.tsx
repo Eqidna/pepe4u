@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           <Unstake />
         </Container>
       ) : (
-        <Container maxW="1000px" centerContent>
+        <Container maxW="1200px" centerContent>
           <Flex h="6vh" justifyContent="center" alignItems="center"></Flex>
 
           <Heading color="black" fontSize="22px">Welcome to The Eqidna Project. </Heading>
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         </Container>
       )}
 
-      <Container maxW="1150px">
+      <Container maxW="1200px">
         <div className={styles.container}>
           <main className={styles.main}>
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
