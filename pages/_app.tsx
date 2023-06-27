@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
  
 
   return (
-    <div style={{ backgroundColor: '#88C6d1' }}>
+    <div style={{ backgroundColor: '#CDFFFF' }}>
     <ThirdwebProvider
       
       activeChain={activeChain}

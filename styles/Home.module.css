@@ -37,7 +37,7 @@
 
 .connect {
   margin-bottom: 3rem;
-  width: 250px;
+  width: 300px;
 }
 
 .description {
@@ -61,7 +61,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 .card {
@@ -81,7 +81,7 @@
 .card:focus,
 .card:active {
   background-color: #430000;
-  color: #ff0000;
+  color: #E00000;
   border-color: #ffffff;
 }
 
