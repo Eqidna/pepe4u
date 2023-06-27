@@ -29,16 +29,15 @@ const Home: NextPage = () => {
         </Container>
       ) : (
         <Container maxW="1200px" centerContent>
-          <Flex h="6vh" justifyContent="center" alignItems="center"></Flex>
+  <Flex h="2vh" justifyContent="center" alignItems="center"></Flex>
 
-          <Heading color="black" fontSize="22px">Welcome to The Eqidna Project. </Heading>
+  <Heading color="black" fontSize="20px">Welcome to The Eqidna Project.</Heading>
 
-          <Flex h="8vh" justifyContent="center" alignItems="center">
-          
-          <Heading color="#E42000" fontSize="25px"> Please connect your wallet!</Heading>
-</Flex>
+  <Flex h="6vh" justifyContent="center" alignItems="center">
+    <Heading color="#E42000" fontSize="25px">Please connect your wallet!</Heading>
+  </Flex>
+</Container>
 
-        </Container>
       )}
 
       <Container maxW="1200px">
@@ -47,7 +46,7 @@ const Home: NextPage = () => {
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
               EQIDNA TOKEN{" "}
               <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={styles.link}>
-                <span className={styles.description} style={{ color: "#E42000", fontSize: "40px", fontWeight: "bold" }}>
+                <span className={styles.description} style={{ color: "#E42000", fontSize: "35px", fontWeight: "bold" }}>
                   $QDNA!
                 </span>
               </a>
