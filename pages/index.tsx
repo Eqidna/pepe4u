@@ -105,8 +105,7 @@ const Home: NextPage = () => {
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   github @QDNA ;
                 </h2>
-                <p className={styles.paragraph} style={{ color: "red" }}>
-                  View our code! #Eqidna $QDNA.
+                <p className={styles.paragraph} style={{ color: "red" }}>View our code! #Eqidna $QDNA.
                 </p>
               </a>
 
@@ -115,7 +114,7 @@ const Home: NextPage = () => {
                   Coingecko $QDNA ;
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
-                  Coming Soon. Coming Soon. Coming Soon! Stay Tuned!
+                  Coming Soon. Stay Tuned!
                 </p>
               </a>
 
