@@ -55,7 +55,7 @@ const Home: NextPage = () => {
             <div className={styles.grid}>
             <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
             className={`${styles.card} ${styles.sameSize}`}>
-              
+
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   BUY $QDNA
                 </h2>
@@ -77,7 +77,7 @@ const Home: NextPage = () => {
 
               <a href="https://twitter.com/EqidnaTokenQDNA" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  Follow Eqidna
+                  Follow @EqidnaTokenQDNA
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
                   Stay up to date on all things #Eqidna $QDNA.
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
 
               <a href="https://github.com/Eqidna/QDNA" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  github @QDNA
+                  github @Eqidna
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>View our code! #Eqidna $QDNA.
                 </p>
