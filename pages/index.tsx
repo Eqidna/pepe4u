@@ -106,7 +106,7 @@ const Home: NextPage = () => {
                   github @QDNA ;
                 </h2>
                 <p className={styles.paragraph} style={{ color: "red" }}>
-                  Don't Trust, Verify our code! #Eqidna $QDNA.
+                  View our code! #Eqidna $QDNA.
                 </p>
               </a>
 
