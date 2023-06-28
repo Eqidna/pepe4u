@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div
       style={{
-        background: "linear-gradient(to left, #FF3E00, #FF0000, #AA1111, #000000, #000000, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #000000, #000000, #AA1111, #FF0000, #FF3E00 )",
+        background: "linear-gradient(to left, #FF3E00, #FF0000, #AA1111, #000000, #000000, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #000000, #000000, #AA1111, #FF0000, #FF3E00 )",
       }}
     >
       <ThirdwebProvider
