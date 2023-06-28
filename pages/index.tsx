@@ -101,7 +101,7 @@ const Home: NextPage = () => {
                 </p>
               </a>
 
-              <a href="https://github.com/Eqidna/QDNA" className={`${styles.card} ${styles.sameSize}`}>
+              <a href="https://github.com/Eqidna" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   github @Eqidna
                 </h2>
