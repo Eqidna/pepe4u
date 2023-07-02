@@ -95,7 +95,7 @@ const Home: NextPage = () => {
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>
-              <a href="https://jolly-bird-0117.on.fleek.co" className={`${styles.card} ${styles.sameSize}`}>
+              <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Learn more: $QDNA
                 </h2>
