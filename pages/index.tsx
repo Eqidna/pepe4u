@@ -63,6 +63,17 @@ const Home: NextPage = () => {
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>
+
+            <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`}>
+                <h2 className={styles.heading} style={{ color: "white" }}>
+                  Learn more: $QDNA
+                </h2>
+                <p className={styles.paragraph} style={{ color: "#E42000" }}>
+                  Want to know more about Eqidna? Click here!
+                </p>
+              </a>
+                
+           
               <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
                 className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
@@ -93,16 +104,8 @@ const Home: NextPage = () => {
               </a>
             </div>
 
-            <div className={styles.connect}></div>
-            <div className={styles.grid}>
-              <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
-                  Learn more: $QDNA
-                </h2>
-                <p className={styles.paragraph} style={{ color: "#E42000" }}>
-                  Want to know more about Eqidna? Click here!
-                </p>
-              </a>
+            
+              
 
               <a href="https://github.com/Eqidna" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
@@ -120,6 +123,9 @@ const Home: NextPage = () => {
                   Coming Soon. Stay Tuned!
                 </p>
               </a>
+              <div className={styles.connect}></div>
+            <div className={styles.grid}>
+
               <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#E42000" }}>
                 {" "}
                 <code className={styles.code}>Welcome to The Eqidna Project.</code>
