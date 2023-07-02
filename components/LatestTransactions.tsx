@@ -32,24 +32,24 @@ export default function LatestTransactions() {
       </Heading>
       <SimpleGrid columns={1}>
         <Card p={2} m={2}>
-          <Box textAlign="center" mb={2}>
-            <div className="latest-transactions-box">
-             
-              {isEventLoading ? (
-                <Spinner />
-              ) : (
-                allEvents?.slice(0, 3).map((event: any, index: number) => (
-                  <Card key={index} p={2} my={1}>
-                    
-                    <Text fontSize="xl">{event.data?.message}</Text>
-                    <Text>Event: {event.event || event.eventName}</Text>
-                    <Text>Amount: {event.data?.amount ? ethers.utils.formatEther(event.data.amount) : ""}</Text>
-                    
-                  </Card>
-                )).reverse() ?? []
-              )}
-            </div>
-          </Box>
+        <Box textAlign="center" mb={2}>
+  <div className="latest-transactions-box">
+    {isEventLoading ? (
+      <Spinner />
+    ) : (
+      allEvents?.slice(0, 3).map((event: any, index: number) => (
+        <Card key={index} p={2} my={1}>
+          <a href="https://polygonscan.com/token/0x80B275ca1434EB942da1cAfC194663aD56f721f8" target="_blank" rel="noopener noreferrer">
+            <Text fontSize="xl">{event.data?.message}</Text>
+            <Text>Event: {event.event || event.eventName}</Text>
+            <Text>Amount: {event.data?.amount ? ethers.utils.formatEther(event.data.amount) : ""}</Text>
+          </a>
+        </Card>
+      )).reverse() ?? []
+    )}
+  </div>
+</Box>
+
           <SimpleGrid columns={1} spacing={5}>
             <Stack spacing={5}>
               {/* Render additional content here */}
