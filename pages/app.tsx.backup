@@ -1,0 +1,95 @@
+import type { AppProps } from "next/app";
+import {
+  ThirdwebProvider,
+  walletConnect,
+  ConnectWallet,
+  coinbaseWallet,
+  localWallet,
+  magicLink,
+  metamaskWallet,
+  paperWallet,
+  safeWallet,
+  smartWallet,
+  useContract,
+} from "@thirdweb-dev/react";
+import {
+  EthereumClassic,
+  Ethereum,
+  Binance,
+  Polygon,
+  Optimism,
+  Dogechain,
+  Arbitrum,
+} from "@thirdweb-dev/chains";
+import { Web3Button } from "@thirdweb-dev/react";
+import "../styles/globals.css";
+import React, { useEffect } from "react";
+import { Container, Flex, ChakraProvider } from "@chakra-ui/react";
+import Navbar from "../components/Navbar";
+
+// Define your smart contract addresses
+const contractAddresses = {
+  contract1: {
+    address: "0xContractAddress1",
+    chain: "ethereum",
+  },
+  contract2: {
+    address: "0xContractAddress2",
+    chain: "polygon",
+  },
+  // Add more contracts on different chains here
+};
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <div
+      style={{
+        background: "linear-gradient(to left, #FF3E00, #FF0000, #AA1111, #000000, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #000000, #AA1111, #FF0000, #FF3E00 )",
+      }}
+    >
+      <ThirdwebProvider
+        activeChain="ethereum" // Default active chain
+        supportedChains={[
+          EthereumClassic,
+          Ethereum,
+          Binance,
+          Polygon,
+          Optimism,
+          Dogechain,
+          Arbitrum,
+        ]}
+        supportedWallets={[
+          metamaskWallet(),
+          walletConnect(),
+          coinbaseWallet(),
+          safeWallet(),
+        ]}
+      >
+        <ChakraProvider>
+          <Navbar />
+          <Component {...pageProps} />
+        </ChakraProvider>
+      </ThirdwebProvider>
+    </div>
+  );
+}
+
+function Component() {
+  const { contract: contract1, isLoading: isLoading1 } = useContract(contractAddresses.contract1.address, contractAddresses.contract1.chain);
+  const { contract: contract2, isLoading: isLoading2 } = useContract(contractAddresses.contract2.address, contractAddresses.contract2.chain);
+  // Add more contracts on different chains here
+
+  // Example usage
+  useEffect(() => {
+    if (!isLoading1 && contract1) {
+      // Access contract methods and interact with it
+      contract1.myMethod();
+    }
+  }, [isLoading1, contract1]);
+
+  // Add more logic for other contracts on different chains
+
+  return <div>My Component</div>;
+}
+
+export default MyApp;

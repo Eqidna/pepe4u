@@ -8,6 +8,7 @@ import Mint from "../components/Mint";
 import Stake from "../components/Stake";
 import ClaimReward from "../components/ClaimReward";
 import Unstake from "../components/Unstake";
+import LatestTransactions from "../components/LatestTransactions";
 
 const contractAddress = "0x80B275ca1434EB942da1cAfC194663aD56f721f8";
 
@@ -22,10 +23,12 @@ const Home: NextPage = () => {
         <Container maxW="600px">
           <EqidnaTokenBalance />
           <Airdrop />
+          
           <Mint />
           <Stake />
           <ClaimReward />
           <Unstake />
+          <LatestTransactions />
         </Container>
       ) : (
         <Container maxW="1200px" centerContent>
