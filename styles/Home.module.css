@@ -48,7 +48,7 @@
 }
 
 .code {
-  background: #000000;
+  background: #3A619C;
   border-radius: 5px;
   padding: .3rem;
   font-size: 1.15rem;
@@ -65,7 +65,7 @@
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #65A6F3;
   margin: 1rem;
   padding: 1.25rem;
   text-align: center;
@@ -81,8 +81,8 @@
 .card:focus,
 .card:active {
   background-color: #69a0f3;
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #65A6F3;
+  border-color: #3A619C;
 }
 
 .card h2 {

@@ -42,106 +42,101 @@ const Home: NextPage = () => {
         </Container>
       )}
 
-      <Container maxW="1200px">
-        <div className={styles.container}>
-          <main className={styles.main}>
-            <h1 className={`${styles.title} ${styles.reduceSpace}`}>
-              EQIDNA TOKEN{" "}
-              <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={styles.link}>
-                <span className={styles.description} style={{ color: "WHITE", fontSize: "35px", fontWeight: "bold" }}>
-                  $QDNA!
-                </span>
-              </a>
-            </h1>
-            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "WHITE", wordWrap: "break-word", fontWeight: "bold" }}>
-              Join the tribe and reap the rewards with #Eqidna.{" "}
-              <code className={styles.code}>$QDNA</code>
-            </p>
-            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "black", wordWrap: "break-word" }}>
-              Eqidna allows you to stake and mint rewards directly from your wallet.
-            </p>
+<Container maxW="1200px">
+  <div className={styles.container}>
+    <main className={styles.main}>
+      <h1 className={`${styles.title} ${styles.reduceSpace}`}>
+        EQIDNA TOKEN{" "}
+        <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={styles.link} target="_blank">
+          <span className={styles.description} style={{ color: "WHITE", fontSize: "35px", fontWeight: "bold" }}>
+            $QDNA!
+          </span>
+        </a>
+      </h1>
+      <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "WHITE", wordWrap: "break-word", fontWeight: "bold" }}>
+        Join the tribe and reap the rewards with #Eqidna.{" "}
+        <code className={styles.code}>$QDNA</code>
+      </p>
+      <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "black", wordWrap: "break-word" }}>
+        Eqidna allows you to stake and mint rewards directly from your wallet.
+      </p>
 
-            <div className={styles.connect}></div>
-            <div className={styles.grid}>
+      <div className={styles.connect}></div>
+      <div className={styles.grid}>
+        <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            Learn more.
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            Want to know more about Eqidna? Click here!
+          </p>
+        </a>
+        
+        <a href="https://opensea.io/collection/eqidnaai" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            Eqidna NFTs
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            Check out our collection of AI Generated NFTs.
+          </p>
+        </a>
+      
+        <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            BUY $QDNA
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
+          </p>
+        </a>
 
-            <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
-                  Learn more.
-                </h2>
-                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
-                  Want to know more about Eqidna? Click here!
-                </p>
-              </a>
-                
-              <a href="https://opensea.io/collection/eqidnaai" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
-                  Eqidna NFTs
-                </h2>
-                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
-                  Check out our collection of AI Generated NFTs.
-                </p>
-              </a>
-           
-              <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
-                className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
-                  BUY $QDNA
-                </h2>
-                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
-                  Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
-                </p>
-              </a>
+        <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            Polygonscan $QDNA
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            View the Contract Overview, execute functions, view tx and more.
+          </p>
+        </a>
 
-              <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8"
-                className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
-                  Polygonscan $QDNA
-                </h2>
-                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
-                  View the Contract Overview, execute functions, view tx and more.
-                </p>
-              </a>
+        <a href="https://twitter.com/EqidnaTokenQDNA" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            Follow @EqidnaTokenQDNA
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            Stay up to date on all things #Eqidna $QDNA.
+          </p>
+        </a>
+      </div>
 
-              <a href="https://twitter.com/EqidnaTokenQDNA" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
-                  Follow @EqidnaTokenQDNA
-                </h2>
-                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
-                  Stay up to date on all things #Eqidna $QDNA.
-                </p>
-              </a>
-            </div>
+      <a href="https://github.com/Eqidna" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+        <h2 className={styles.heading} style={{ color: "white" }}>
+          github @Eqidna
+        </h2>
+        <p className={styles.paragraph} style={{ color: "white" }}>View our code! #Eqidna $QDNA.
+        </p>
+      </a>
 
-            
-              
+      <a href="https://www.coingecko.com/" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+        <h2 className={styles.heading} style={{ color: "white" }}>
+          Coingecko $QDNA
+        </h2>
+        <p className={styles.paragraph} style={{ color: "white" }}>
+          Coming Soon. Stay Tuned!
+        </p>
+      </a>
+      
+      <div className={styles.connect}></div>
+      <div className={styles.grid}>
+        <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "white" }}>
+          {" "}
+          <code className={styles.code}>Welcome to The Eqidna Project.</code>
+        </p>
+      </div>
+    </main>
+  </div>
+</Container>
 
-              <a href="https://github.com/Eqidna" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
-                  github @Eqidna
-                </h2>
-                <p className={styles.paragraph} style={{ color: "#3A619C" }}>View our code! #Eqidna $QDNA.
-                </p>
-              </a>
-
-              <a href="https://www.coingecko.com/" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
-                  Coingecko $QDNA
-                </h2>
-                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
-                  Coming Soon. Stay Tuned!
-                </p>
-              </a>
-              <div className={styles.connect}></div>
-            <div className={styles.grid}>
-
-              <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#3A619C" }}>
-                {" "}
-                <code className={styles.code}>Welcome to The Eqidna Project.</code>
-              </p>
-            </div>
-          </main>
-        </div>
-      </Container>
     </>
   );
 };

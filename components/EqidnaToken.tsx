@@ -19,13 +19,13 @@ function EqidnaTokenBalance() {
   }
 
   return (
-    <Card p={2} mt={2}>
-      <Heading textAlign="center" style={{ color: 'red' }} fontSize="2xl">EQIDNA TOKEN</Heading>
+    <Card p={2} mt={2} bg="#white">
+      <Heading textAlign="center" style={{ color: '#3A619C' }} fontSize="2xl">EQIDNA TOKEN</Heading>
       <SimpleGrid columns={1}>
         <Box textAlign="center" mb={1}>
         
         </Box>
-        <Card p={2} m={2}>
+        <Card p={2} m={2} bg="#C7DDFF">
           <Box textAlign="center" mb={5}></Box>
           <SimpleGrid columns={1} spacing={2}>
             <Stack spacing={2}>
@@ -38,7 +38,7 @@ function EqidnaTokenBalance() {
                 <Text textAlign="center" fontSize="l">
                   Contract Address:{" "}
                   <a href={`https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8`}>
-                    <Text as="span" fontWeight="bold" color="red">
+                    <Text as="span" fontWeight="bold" color="#3A619C">
                       {tokenAddress}
                     </Text>
                   </a>

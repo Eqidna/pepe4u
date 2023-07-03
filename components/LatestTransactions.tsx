@@ -26,19 +26,19 @@ export default function LatestTransactions() {
  
 
   return (
-    <Card p={5} mt={5}>
-      <Heading textAlign="center" style={{ color: "red" }} fontSize="2xl">
+    <Card p={5} mt={5} bg="#C7DDFF">
+      <Heading textAlign="center" style={{ color: "#3A619C" }} fontSize="2xl">
         Latest Transactions
       </Heading>
       <SimpleGrid columns={1}>
-        <Card p={2} m={2}>
+        <Card p={2} m={2} bg="#3A619C">
         <Box textAlign="center" mb={2}>
   <div className="latest-transactions-box">
     {isEventLoading ? (
       <Spinner />
     ) : (
       allEvents?.slice(0, 3).map((event: any, index: number) => (
-        <Card key={index} p={2} my={1}>
+        <Card key={index} p={2} my={1} bg="#white">
           <a href="https://polygonscan.com/token/0x80B275ca1434EB942da1cAfC194663aD56f721f8" target="_blank" rel="noopener noreferrer">
             <Text fontSize="xl">{event.data?.message}</Text>
             <Text>Event: {event.event || event.eventName}</Text>

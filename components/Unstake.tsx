@@ -7,12 +7,12 @@ export default function Unstake() {
 
   return (
     <div>
-      <Card p={5} mt={5}>
-        <Heading textAlign="center" style={{ color: 'red' }} fontSize="2xl">
+      <Card p={5} mt={5} bg="#C7DDFF">
+        <Heading textAlign="center" style={{ color: '#3A619C' }} fontSize="2xl">
           Unstake Your $QDNA
         </Heading>
         <SimpleGrid columns={1}>
-          <Card p={2} m={2}>
+          <Card p={2} m={2} bg="#3A619C">
             <Box textAlign="center" mb={5}>
               {/* Render any additional content here */}
             </Box>
@@ -26,8 +26,8 @@ export default function Unstake() {
                     padding: '10px',
                     fontSize: '16px',
                     borderRadius: '4px',
-                    border: '1.25px solid #ff0000',
-                    boxShadow: 'inset 0 1px 3px rgba(0, 0, 0, 0.1)',
+                    border: '1.25px solid #3A619C',
+                    boxShadow: 'inset 0 1px 3px rgba(58, 97, 156 )',
                     width: '100%',
                   }}
                 />
