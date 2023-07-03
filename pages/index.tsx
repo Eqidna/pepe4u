@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                   Eqidna NFTs
                 </h2>
                 <p className={styles.paragraph} style={{ color: "#E42000" }}>
-                  Check out our collection of Eqidna AI Generated NFTs.
+                  Check out our collection of AI Generated NFTs.
                 </p>
               </a>
            
