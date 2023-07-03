@@ -31,7 +31,7 @@ export default function Stake() {
                   boxShadow: 'inset 0 1px 3px rgba(58, 97, 156)',
                   width: '100%',
                   background: 'white',
-                  color: 'rgba(0, 0, 0, 0.3)', // Faded color for placeholder
+                  color: 'rgba(0, 0, 0, 0)', // Faded color for placeholder
                 }}
               />
 
