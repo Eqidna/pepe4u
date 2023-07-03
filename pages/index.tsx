@@ -20,7 +20,7 @@ const Home: NextPage = () => {
   return (
     <>
       {address ? (
-        <Container maxW="600px">
+        <Container maxW="500px">
           <EqidnaTokenBalance />
           <Airdrop />
           
@@ -48,12 +48,12 @@ const Home: NextPage = () => {
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
               EQIDNA TOKEN{" "}
               <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={styles.link}>
-                <span className={styles.description} style={{ color: "#E42000", fontSize: "35px", fontWeight: "bold" }}>
+                <span className={styles.description} style={{ color: "WHITE", fontSize: "35px", fontWeight: "bold" }}>
                   $QDNA!
                 </span>
               </a>
             </h1>
-            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#E42000", wordWrap: "break-word", fontWeight: "bold" }}>
+            <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "WHITE", wordWrap: "break-word", fontWeight: "bold" }}>
               Join the tribe and reap the rewards with #Eqidna.{" "}
               <code className={styles.code}>$QDNA</code>
             </p>
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Learn more.
                 </h2>
-                <p className={styles.paragraph} style={{ color: "#E42000" }}>
+                <p className={styles.paragraph} style={{ color: "white" }}>
                   Want to know more about Eqidna? Click here!
                 </p>
               </a>
@@ -77,7 +77,7 @@ const Home: NextPage = () => {
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Eqidna NFTs
                 </h2>
-                <p className={styles.paragraph} style={{ color: "#E42000" }}>
+                <p className={styles.paragraph} style={{ color: "white" }}>
                   Check out our collection of AI Generated NFTs.
                 </p>
               </a>
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   BUY $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "#E42000" }}>
+                <p className={styles.paragraph} style={{ color: "white" }}>
                   Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
                 </p>
               </a>
@@ -97,7 +97,7 @@ const Home: NextPage = () => {
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Polygonscan $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "#E42000" }}>
+                <p className={styles.paragraph} style={{ color: "WHITE" }}>
                   View the Contract Overview, execute functions, view tx and more.
                 </p>
               </a>
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Follow @EqidnaTokenQDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "#E42000" }}>
+                <p className={styles.paragraph} style={{ color: "WHITE" }}>
                   Stay up to date on all things #Eqidna $QDNA.
                 </p>
               </a>
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   github @Eqidna
                 </h2>
-                <p className={styles.paragraph} style={{ color: "#E42000" }}>View our code! #Eqidna $QDNA.
+                <p className={styles.paragraph} style={{ color: "white" }}>View our code! #Eqidna $QDNA.
                 </p>
               </a>
 
@@ -127,7 +127,7 @@ const Home: NextPage = () => {
                 <h2 className={styles.heading} style={{ color: "white" }}>
                   Coingecko $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "#E42000" }}>
+                <p className={styles.paragraph} style={{ color: "white" }}>
                   Coming Soon. Stay Tuned!
                 </p>
               </a>
