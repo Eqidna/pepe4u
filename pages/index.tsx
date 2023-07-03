@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           <Heading color="black" fontSize="20px">Welcome to The Eqidna Project.</Heading>
 
           <Flex h="10vh" justifyContent="center" alignItems="center">
-            <Heading color="#E42000" fontSize="25px">Please connect your wallet!</Heading>
+            <Heading color="white" fontSize="25px">Please connect your wallet!</Heading>
           </Flex>
         </Container>
       )}
