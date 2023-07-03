@@ -73,6 +73,14 @@ const Home: NextPage = () => {
                 </p>
               </a>
                 
+              <a href="https://opensea.io/collection/eqidnaai" className={`${styles.card} ${styles.sameSize}`}>
+                <h2 className={styles.heading} style={{ color: "white" }}>
+                  Eqidna NFTs
+                </h2>
+                <p className={styles.paragraph} style={{ color: "#E42000" }}>
+                  Check out our collection of AI-ARTWORK NFTs
+                </p>
+              </a>
            
               <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
                 className={`${styles.card} ${styles.sameSize}`}>
