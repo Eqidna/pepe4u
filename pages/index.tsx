@@ -65,48 +65,48 @@ const Home: NextPage = () => {
             <div className={styles.grid}>
 
             <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
+                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
                   Learn more.
                 </h2>
-                <p className={styles.paragraph} style={{ color: "white" }}>
+                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
                   Want to know more about Eqidna? Click here!
                 </p>
               </a>
                 
               <a href="https://opensea.io/collection/eqidnaai" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
+                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
                   Eqidna NFTs
                 </h2>
-                <p className={styles.paragraph} style={{ color: "white" }}>
+                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
                   Check out our collection of AI Generated NFTs.
                 </p>
               </a>
            
               <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137"
                 className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
+                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
                   BUY $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "white" }}>
+                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
                   Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
                 </p>
               </a>
 
               <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8"
                 className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
+                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
                   Polygonscan $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "WHITE" }}>
+                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
                   View the Contract Overview, execute functions, view tx and more.
                 </p>
               </a>
 
               <a href="https://twitter.com/EqidnaTokenQDNA" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
+                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
                   Follow @EqidnaTokenQDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "WHITE" }}>
+                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
                   Stay up to date on all things #Eqidna $QDNA.
                 </p>
               </a>
@@ -116,25 +116,25 @@ const Home: NextPage = () => {
               
 
               <a href="https://github.com/Eqidna" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
+                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
                   github @Eqidna
                 </h2>
-                <p className={styles.paragraph} style={{ color: "white" }}>View our code! #Eqidna $QDNA.
+                <p className={styles.paragraph} style={{ color: "#3A619C" }}>View our code! #Eqidna $QDNA.
                 </p>
               </a>
 
               <a href="https://www.coingecko.com/" className={`${styles.card} ${styles.sameSize}`}>
-                <h2 className={styles.heading} style={{ color: "white" }}>
+                <h2 className={styles.heading} style={{ color: "#3A619C" }}>
                   Coingecko $QDNA
                 </h2>
-                <p className={styles.paragraph} style={{ color: "white" }}>
+                <p className={styles.paragraph} style={{ color: "#3A619C" }}>
                   Coming Soon. Stay Tuned!
                 </p>
               </a>
               <div className={styles.connect}></div>
             <div className={styles.grid}>
 
-              <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#E42000" }}>
+              <p className={`${styles.description} ${styles.reduceSpace}`} style={{ color: "#3A619C" }}>
                 {" "}
                 <code className={styles.code}>Welcome to The Eqidna Project.</code>
               </p>
