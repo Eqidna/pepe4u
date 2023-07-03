@@ -66,7 +66,7 @@ const Home: NextPage = () => {
 
             <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`}>
                 <h2 className={styles.heading} style={{ color: "white" }}>
-                  Learn more: $QDNA
+                  Learn more.
                 </h2>
                 <p className={styles.paragraph} style={{ color: "#E42000" }}>
                   Want to know more about Eqidna? Click here!
