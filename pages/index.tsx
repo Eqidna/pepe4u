@@ -63,7 +63,7 @@ const Home: NextPage = () => {
 
       <div className={styles.connect}></div>
       <div className={styles.grid}>
-        <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+        <a href="https://qdna-info-eqidna.vercel.app/" className={`${styles.card} ${styles.sameSize}`} target="_blank">
           <h2 className={styles.heading} style={{ color: "white" }}>
             Learn more.
           </h2>
