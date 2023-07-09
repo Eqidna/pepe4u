@@ -99,6 +99,15 @@ const Home: NextPage = () => {
           </p>
         </a>
 
+        <a href="https://www.dextools.io/app/en/polygon/pair-explorer/0x4bef74d14df84fd524732d41e0241b1ef894e50f" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            Dextools $QDNA
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            View the Trades, chart, holders and more.
+          </p>
+        </a>
+
         <a href="https://twitter.com/EqidnaTokenQDNA" className={`${styles.card} ${styles.sameSize}`} target="_blank">
           <h2 className={styles.heading} style={{ color: "white" }}>
             Follow @EqidnaTokenQDNA
