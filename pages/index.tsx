@@ -15,7 +15,7 @@ import LeftImage2 from "../assets/pepe-frog.gif";
 import RightImage2 from "../assets/pepe-thank-you.gif";
 import LeftImage3 from "../assets/pepe-peppo.gif";
 
-const contractAddress = "0xEEA95a9166A2Bc398ad2695807B9289b230246b3";
+const contractAddress = "0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41";
 
 const Home: NextPage = () => {
   const address = useAddress();
