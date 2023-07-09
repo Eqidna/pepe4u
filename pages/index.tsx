@@ -153,37 +153,21 @@ const Home: NextPage = () => {
 
       <div className={styles.connect}></div>
       <div className={styles.grid}>
-        <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`} target="_blank">
-          <h2 className={styles.heading} style={{ color: "white" }}>
-            Learn more.
-          </h2>
-          <p className={styles.paragraph} style={{ color: "white" }}>
-            Want to know more about Eqidna? Click here!
-          </p>
-        </a>
         
-        <a href="https://opensea.io/collection/eqidnaai" className={`${styles.card} ${styles.sameSize}`} target="_blank">
-          <h2 className={styles.heading} style={{ color: "white" }}>
-            Eqidna NFTs
-          </h2>
-          <p className={styles.paragraph} style={{ color: "white" }}>
-            Check out our collection of AI Generated NFTs.
-          </p>
-        </a>
       
-        <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+        <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41&chainId=137" className={`${styles.card} ${styles.sameSize}`} target="_blank">
           <h2 className={styles.heading} style={{ color: "white" }}>
-            BUY $QDNA
+            BUY $PEPE4U
           </h2>
           <p className={styles.paragraph} style={{ color: "white" }}>
-            Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
+            Now Available on Uniswap, Polygon Mainnet
           </p>
         </a>
 
-        <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+        <a href="https://polygonscan.com/address/0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41" className={`${styles.card} ${styles.sameSize}`} target="_blank">
           <h2 className={styles.heading} style={{ color: "white" }}>
-            Polygonscan $QDNA
-          </h2>
+            Polygonscan $PEPE4U
+            </h2>
           <p className={styles.paragraph} style={{ color: "white" }}>
             View the Contract Overview, execute functions, view tx and more.
           </p>
