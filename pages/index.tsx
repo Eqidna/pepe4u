@@ -151,33 +151,43 @@ const Home: NextPage = () => {
               </div>
             </Flex>
 
-            <div className={styles.connect}></div>
-<div className={styles.grid}>
-  <a
-    href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41&chainId=137"
-    className={`${styles.card} ${styles.sameSize}`}
-    target="_blank"
-  >
-    <h2 className={`${styles.heading} ${styles.boldText} ${styles.centered}`} style={{ color: "white" }}>
-      Buy PEPE4U
-    </h2>
-    <p className={`${styles.paragraph} ${styles.centered}`} style={{ color: "white" }}>
-      Now available on Uniswap.
-    </p>
-  </a>
+      <div className={styles.connect}></div>
+      <div className={styles.grid}>
+        <a href="https://ipfs.io/ipfs/QmQbvNMnPMb9rJCbFgYrxZwgx6CrKF1zR454Ak9bGwSv7s" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            Learn more.
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            Want to know more about Eqidna? Click here!
+          </p>
+        </a>
+        
+        <a href="https://opensea.io/collection/eqidnaai" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            Eqidna NFTs
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            Check out our collection of AI Generated NFTs.
+          </p>
+        </a>
+      
+        <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0x80B275ca1434EB942da1cAfC194663aD56f721f8&chainId=137" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            BUY $QDNA
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            Now Available on Uniswap, Polygon Mainnet. More exchanges to be added!
+          </p>
+        </a>
 
-  <a
-    href="https://polygonscan.com/address/0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41"
-    className={`${styles.card} ${styles.sameSize}`}
-    target="_blank"
-  >
-    <h2 className={`${styles.heading} ${styles.boldText} ${styles.centered}`} style={{ color: "white" }}>
-      Polygonscan $Pepe4U
-    </h2>
-    <p className={`${styles.paragraph} ${styles.centered}`} style={{ color: "white" }}>
-      View the Contract Overview, execute functions, view tx and more.
-    </p>
-  </a>
+        <a href="https://polygonscan.com/address/0x80B275ca1434EB942da1cAfC194663aD56f721f8" className={`${styles.card} ${styles.sameSize}`} target="_blank">
+          <h2 className={styles.heading} style={{ color: "white" }}>
+            Polygonscan $QDNA
+          </h2>
+          <p className={styles.paragraph} style={{ color: "white" }}>
+            View the Contract Overview, execute functions, view tx and more.
+          </p>
+        </a>
 
   <a
     href="https://twitter.com/EqidnaTokenQDNA"
@@ -348,21 +358,21 @@ const Home: NextPage = () => {
         height={100}
       />
     </div>
-    <a
-      href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41&chainId=137"
+    
+    <a href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41&chainId=137"
       className={`${styles.card} ${styles.widerContainer}`}
       target="_blank"
     >
       <div className={styles.cardContent}>
-      <h2 className={`${styles.heading} ${styles.centered} ${styles.largeText}`} style={{ color: "white" }}>
-      Switch $MATIC for $PEPE4U
-</h2>
-
+        <h2 className={`${styles.heading} ${styles.centered} ${styles.largeText}`} style={{ color: "white" }}>
+          Switch $MATIC for $PEPE4U
+        </h2>
         <p className={styles.paragraph} style={{ color: "white" }}>
-        We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
+          We have ZERO taxes so you don't need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
         </p>
       </div>
     </a>
+    
     <div className={styles.imageContainer}>
       <Image
         src={RightImage2}
@@ -370,8 +380,6 @@ const Home: NextPage = () => {
         width={100}
         height={100}
       />
-
-      
     </div>
   </div>
 </div>
