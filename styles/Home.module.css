@@ -13,7 +13,7 @@
 }
 
 .title a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@
 .title,
 .description {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .connect {
@@ -60,12 +60,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 650px;
+ 
+  max-width: 1650px;
 }
 
 .card {
-  background-color: #65A6F3;
+  background-color: #068100;
   margin: 1rem;
   padding: 1.25rem;
   text-align: center;
@@ -80,9 +80,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-  background-color: #69a0f3;
-  color: #65A6F3;
-  border-color: #3A619C;
+  background-color: #6cd65c;
+  color: #6bff64;
+  border-color: #d4ff00;
 }
 
 .card h2 {
@@ -128,4 +128,72 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  /* Add any additional styling for the card here */
+}
+
+.widerContainer {
+  width: 600px; /* Adjust the width value according to your desired width */
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftImage {
+  width: 100px; /* Adjust the width of the left image as desired */
+  height: auto; /* Adjust the height of the left image as desired */
+}
+
+.rightImage {
+  width: 100px; /* Adjust the width of the right image as desired */
+  height: auto; /* Adjust the height of the right image as desired */
+}
+
+.outerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adjust the width value according to your desired width */
+.widerContainer {
+  width: 800px;
+}
+
+.largeText {
+  font-size: 50px; /* Adjust the font size according to your desired size */
+  font-weight: bold;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.centered {
+  text-align: center;
 }

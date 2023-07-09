@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div
       style={{
-        background: "linear-gradient(to left, #3A619C, #65A6F3, #1F3996 )",
+        background: "linear-gradient(to left, #005E02, #00D305, #007F03 )",
       }}
     >
       <ThirdwebProvider
@@ -69,7 +69,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }
   
   function Component() {
-    const { contract, isLoading } = useContract("0x80B275ca1434EB942da1cAfC194663aD56f721f8");
+    const { contract, isLoading } = useContract("0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41");
   
   
 }
