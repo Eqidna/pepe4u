@@ -277,7 +277,7 @@ const Home: NextPage = () => {
 </h2>
 
         <p className={styles.paragraph} style={{ color: "white" }}>
-        Have $MATIC in your wallet to switch to $PEPE4U. If you don’t have any Polygon MATIC, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.
+        Have $MATIC in your wallet to switch to $PEPE4U. If you don't have any Polygon MATIC, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.
         </p>
       </div>
     </a>
