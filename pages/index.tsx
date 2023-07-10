@@ -10,7 +10,7 @@ import LeftImage from "../assets/left-image.png";
 import RightImage from "../assets/right-image.png";
 import MemecoinImage from "../assets/memecoin-image.png";
 import GifImage from "../assets/your-gif-image.gif";
-import TokenomicsImage2 from "../assets/tokenomicsG.png";
+import TokenomicsImage2 from "../assets/TokenomicsG.png";
 import LeftImage2 from "../assets/pepe-frog.gif";
 import RightImage2 from "../assets/pepe-thank-you.gif";
 import LeftImage3 from "../assets/pepe-peppo.gif";
