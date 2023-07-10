@@ -89,7 +89,7 @@ const Home: NextPage = () => {
               <Image
                 src={TokenomicsImage2}
                 alt="Tokenomics Image"
-                width={350} // Set the desired width of the image
+                width={300} // Set the desired width of the image
                 height={300} // Set the desired height of the image
               />
             </div>
