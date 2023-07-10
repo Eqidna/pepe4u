@@ -179,7 +179,7 @@ const Home: NextPage = () => {
     target="_blank"
   >
     <h2 className={`${styles.heading} ${styles.boldText} ${styles.centered}`} style={{ color: "white" }}>
-      Follow Pepe4U's twitter 
+      Follow Pepe4U on Twitter 
     </h2>
     <p className={`${styles.paragraph} ${styles.centered}`} style={{ color: "white" }}>
       Stay up to date on all things #Pepe4u.
@@ -352,7 +352,7 @@ const Home: NextPage = () => {
           Switch $MATIC for $PEPE4U
         </h2>
         <p className={styles.paragraph} style={{ color: "white" }}>
-          We have ZERO taxes so you don't need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
+          We have ZERO taxes so you dont need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
         </p>
       </div>
     </a>
