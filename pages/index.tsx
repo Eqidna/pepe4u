@@ -25,21 +25,22 @@ const Home: NextPage = () => {
   return (
     <>
       {address ? (
-        <Container maxW="1100px">
-          <Flex justifyContent="space-between" alignItems="center">
-            <Box>
-              <Airdrop />
-            </Box>
-            <Box>
-              <Pepe4uBalance />
-            </Box>
-            <Box>
-              <Mint />
-            </Box>
-          </Flex>
-        </Container>
+        <Container maxW="668px">
+        <Box>
+          <Pepe4uBalance />
+        </Box>
+        <Flex justifyContent="space-between" alignItems="center">
+          <Box>
+            <Airdrop />
+          </Box>
+          <Box>
+            <Mint />
+          </Box>
+        </Flex>
+      </Container>
+      
       ) : (
-        <Container maxW="1000px" centerContent>
+        <Container maxW="800px" centerContent>
           <Heading color="white" fontSize="100px">
             PEPE 4 YOU!
           </Heading>
@@ -52,7 +53,7 @@ const Home: NextPage = () => {
         </Container>
       )}
 
-      <Container maxW="1000px">
+      <Container maxW="800px">
         <div className={styles.container}>
           <main className={styles.main}>
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
@@ -150,59 +151,62 @@ const Home: NextPage = () => {
             </Flex>
 
             <div className={styles.connect}></div>
-            <div className={styles.grid}>
-              <a
-                href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41&chainId=137"
-                className={`${styles.card} ${styles.sameSize}`}
-                target="_blank"
-              >
-                <h2
-                  className={`${styles.heading} ${styles.boldText} ${styles.centered}`}
-                  style={{ color: "white", fontSize: "20px" }}
-                >
-                  BUY $PEPE4U
-                </h2>
-                <p className={styles.paragraph} style={{ color: "white" }}>
-                  Now Available on Uniswap, Polygon Mainnet
-                </p>
-              </a>
+<div className={styles.grid}>
+  <a
+    href="https://app.uniswap.org/#/swap?inputCurrency=MATIC&outputCurrency=0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41&chainId=137"
+    className={`${styles.card} ${styles.sameSize}`}
+    target="_blank"
+  >
+    <h2
+      className={`${styles.heading} ${styles.boldText} ${styles.centered}`}
+      style={{ color: "white", fontSize: "20px" }}
+    >
+      BUY $PEPE4U
+    </h2>
+    <p className={styles.paragraph} style={{ color: "white" }}>
+      Now Available on Uniswap, Polygon Mainnet
+    </p>
+  </a>
+</div>
 
-              <a
-                href="https://polygonscan.com/address/0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41"
-                className={`${styles.card} ${styles.sameSize}`}
-                target="_blank"
-              >
-                <h2
-                  className={`${styles.heading} ${styles.boldText} ${styles.centered}`}
-                  style={{ color: "white", fontSize: "20px" }}
-                >
-                  Polygonscan $PEPE4U
-                </h2>
-                <p className={styles.paragraph} style={{ color: "white" }}>
-                  View the Contract Overview, execute functions, view tx and
-                  more.
-                </p>
-              </a>
+<div className={styles.connect}></div>
+<div className={styles.grid}>
+  <a
+    href="https://polygonscan.com/address/0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41"
+    className={`${styles.card} ${styles.sameSize}`}
+    target="_blank"
+  >
+    <h2
+      className={`${styles.heading} ${styles.boldText} ${styles.centered}`}
+      style={{ color: "white", fontSize: "20px" }}
+    >
+      Polygonscan $PEPE4U
+    </h2>
+    <p className={styles.paragraph} style={{ color: "white" }}>
+      View the Contract Overview, execute functions, view tx and more.
+    </p>
+  </a>
+</div>
 
-              <a
-                href="https://twitter.com/EqidnaTokenQDNA"
-                className={`${styles.card} ${styles.sameSize}`}
-                target="_blank"
-              >
-                <h2
-                  className={`${styles.heading} ${styles.boldText} ${styles.centered}`}
-                  style={{ color: "white", fontSize: "20px" }}
-                >
-                  Follow Pepe4U on Twitter
-                </h2>
-                <p
-                  className={`${styles.paragraph} ${styles.centered}`}
-                  style={{ color: "white" }}
-                >
-                  Stay up to date on all things #Pepe4u.
-                </p>
-              </a>
-            </div>
+<div className={styles.connect}></div>
+<div className={styles.grid}>
+  <a
+    href="https://twitter.com/EqidnaTokenQDNA"
+    className={`${styles.card} ${styles.sameSize}`}
+    target="_blank"
+  >
+    <h2
+      className={`${styles.heading} ${styles.boldText} ${styles.centered}`}
+      style={{ color: "white", fontSize: "20px" }}
+    >
+      Follow Pepe4U on Twitter
+    </h2>
+    <p className={`${styles.paragraph} ${styles.centered}`} style={{ color: "white" }}>
+      Stay up to date on all things #Pepe4u.
+    </p>
+  </a>
+</div>
+
 
             <div className={styles.connect}></div>
             <div className={styles.grid}>
@@ -224,7 +228,7 @@ const Home: NextPage = () => {
           </main>
         </div>
       </Container>
-      <Container maxW="1000px" centerContent>
+      <Container maxW="800px" centerContent>
         <Flex h="2vh" justifyContent="center" alignItems="center"></Flex>
         <Heading color="white" fontSize="50px">
           How to buy
