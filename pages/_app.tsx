@@ -43,11 +43,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThirdwebProvider
         activeChain={activeChain}
         supportedChains={[
-          EthereumClassic,
+          Polygon,
           Ethereum,
           Binance,
           Optimism,
-          Polygon,
+          EthereumClassic,
           Arbitrum,
           Dogechain,
         ]}
