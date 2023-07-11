@@ -25,11 +25,11 @@ const Home: NextPage = () => {
   return (
     <>
       {address ? (
-        <Container maxW="668px">
-        <Box>
-          <Pepe4uBalance />
-        </Box>
-        <Flex justifyContent="space-between" alignItems="center">
+        <Container maxW="600px">
+        <Flex justifyContent="space-between" alignItems="center" flexDirection="column">
+          <Box>
+            <Pepe4uBalance />
+          </Box>
           <Box>
             <Airdrop />
           </Box>
@@ -38,6 +38,7 @@ const Home: NextPage = () => {
           </Box>
         </Flex>
       </Container>
+      
       
       ) : (
         <Container maxW="800px" centerContent>
