@@ -13,11 +13,11 @@ import {
   useContract,
 } from "@thirdweb-dev/react";
 import {
-  EthereumClassic,
+  Polygon,
   Ethereum,
   Binance,
-  Polygon,
   Optimism,
+  EthereumClassic,
   Dogechain,
   Arbitrum,
 } from "@thirdweb-dev/chains";
