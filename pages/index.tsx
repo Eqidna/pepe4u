@@ -25,7 +25,7 @@ const Home: NextPage = () => {
   return (
     <>
       {address ? (
-        <Container maxW="600px">
+        <Container maxW="500px">
         <Flex justifyContent="space-between" alignItems="center" flexDirection="column">
           <Box>
             <Pepe4uBalance />
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       
       
       ) : (
-        <Container maxW="800px" centerContent>
+        <Container maxW="1200px" centerContent>
           <Heading color="white" fontSize="100px">
             PEPE 4 YOU!
           </Heading>
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
         </Container>
       )}
 
-      <Container maxW="800px">
+      <Container maxW="700px">
         <div className={styles.container}>
           <main className={styles.main}>
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
@@ -131,14 +131,14 @@ const Home: NextPage = () => {
                   color: "white",
                   wordWrap: "break-word",
                   fontWeight: "bold",
-                  flex: "1",
+                  flex: "2",
                   margin: "0 20px",
                 }}
               >
                 $Pepe4U holds the key to the future, eagerly awaiting your
-                arrival. Brace yourself to reshape the rules, surpass your
-                limits, and ascend to legendary status!
+                arrival. 
               </p>
+              
               <div style={{ position: "relative" }}>
                 <Image
                   src={RightImage}
@@ -149,8 +149,46 @@ const Home: NextPage = () => {
                   className={styles.image}
                 />
               </div>
+              
             </Flex>
-
+            <Flex alignItems="center" flexWrap="wrap">
+              <div style={{ position: "relative" }}>
+                <Image
+                  src={LeftImage}
+                  alt="Left Image"
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center"
+                  className={styles.image}
+                />
+              </div>
+              <p
+                className={`${styles.description} ${styles.reduceSpace}`}
+                style={{
+                  color: "white",
+                  wordWrap: "break-word",
+                  fontWeight: "bold",
+                  flex: "1",
+                  margin: "0 20px",
+                }}
+              >
+                Brace yourself to reshape the rules, surpass your
+                limits, and ascend to legendary status!
+              </p>
+              
+              <div style={{ position: "relative" }}>
+                <Image
+                  src={RightImage}
+                  alt="Right Image"
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center"
+                  className={styles.image}
+                />
+              </div>
+              
+            </Flex>
+            
             <div className={styles.connect}></div>
 <div className={styles.grid}>
   <a
