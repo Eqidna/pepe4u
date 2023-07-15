@@ -14,6 +14,7 @@ import TokenomicsImage2 from "../assets/TokenomicsG.png";
 import LeftImage2 from "../assets/pepe-frog.gif";
 import RightImage2 from "../assets/pepe-thank-you.gif";
 import LeftImage3 from "../assets/pepe-peppo.gif";
+import AirdropEligibilityChecker from "../components/Eligibility";
 
 const contractAddress = "0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41";
 
@@ -31,11 +32,15 @@ const Home: NextPage = () => {
             <Pepe4uBalance />
           </Box>
           <Box>
+            <AirdropEligibilityChecker />
+          </Box>
+          <Box>
             <Airdrop />
           </Box>
           <Box>
             <Mint />
           </Box>
+          
         </Flex>
       </Container>
       
@@ -54,7 +59,7 @@ const Home: NextPage = () => {
         </Container>
       )}
 
-      <Container maxW="700px">
+      <Container maxW="1200px">
         <div className={styles.container}>
           <main className={styles.main}>
             <h1 className={`${styles.title} ${styles.reduceSpace}`}>
@@ -448,51 +453,49 @@ const Home: NextPage = () => {
         </div>
 
         <div>
-          <Flex h="10vh" justifyContent="center" alignItems="center">
-            <p
-              style={{
-                color: "white",
-                fontSize: "20px",
-                fontWeight: "bold",
-                wordWrap: "break-word",
-                maxWidth: "500px",
-              }}
-            >
-              Pepe4U coin has no association with Matt Furie or his creation
-              Pepe the Frog.
-            </p>
-          </Flex>
-          <Flex h="10vh" justifyContent="center" alignItems="center">
-            <p
-              style={{
-                color: "white",
-                fontSize: "20px",
-                fontWeight: "bold",
-                wordWrap: "break-word",
-                maxWidth: "500px",
-              }}
-            >
-              This token is simply paying homage to a meme we all love and
-              recognize.
-            </p>
-          </Flex>
-        </div>
+  <Flex h="10vh" justifyContent="center" alignItems="center" mb={4}>
+    <p
+      style={{
+        color: "white",
+        fontSize: "20px",
+        fontWeight: "bold",
+        wordWrap: "break-word",
+        maxWidth: "500px",
+      }}
+    >
+      Pepe4U coin has no association with Matt Furie or his creation Pepe the Frog.
+    </p>
+  </Flex>
+  <Flex h="10vh" justifyContent="center" alignItems="center" mb={4}>
+    <p
+      style={{
+        color: "white",
+        fontSize: "20px",
+        fontWeight: "bold",
+        wordWrap: "break-word",
+        maxWidth: "500px",
+      }}
+    >
+      This token is simply paying homage to a meme we all love and recognize.
+    </p>
+  </Flex>
+</div>
 
-        <div>
-          <p
-            style={{
-              color: "white",
-              fontWeight: "bold",
-              fontSize: "20px",
-              wordWrap: "break-word",
-              maxWidth: "500px",
-            }}
-          >
-            $PEPE4U is a meme coin with no intrinsic value or expectation of
-            financial return. There is no formal team or roadmap. The coin is
-            completely useless and for entertainment purposes only.
-          </p>
-        </div>
+<div>
+  <p
+    style={{
+      color: "white",
+      fontWeight: "bold",
+      fontSize: "20px",
+      wordWrap: "break-word",
+      maxWidth: "500px",
+      marginBottom: "20px", // Increase the margin bottom for larger spacing
+    }}
+  >
+    $PEPE4U is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is completely useless and for entertainment purposes only.
+  </p>
+</div>
+
       </Container>
     </>
   );

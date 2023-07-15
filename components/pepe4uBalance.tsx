@@ -48,7 +48,7 @@ function Pepe4uBalance() {
         <Box textAlign="center">
           <Text textAlign="center" fontSize="l" fontWeight="bold">
             Contract Address:{" "}
-            <a href={`https://polygonscan.com/address/${tokenAddress}`}>
+            <a href={`https://polygonscan.com/address/0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41`}>
               <Text as="span" fontWeight="bold" color="#007F03">
                 {tokenAddress}
               </Text>
