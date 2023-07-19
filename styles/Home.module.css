@@ -32,7 +32,7 @@
 .title,
 .description {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 
@@ -142,7 +142,7 @@
   background: linear-gradient(to right,);
 }
 
-.innerContainer {
+.Container {
   display: flex;
   align-items: center;
   justify-content: space-between;

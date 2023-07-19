@@ -47,7 +47,7 @@ const Home: NextPage = () => {
       
       ) : (
         <Container maxW="1200px" centerContent>
-          <Heading color="white" fontSize="60px">
+          <Heading color="white" fontSize="50px">
             PEPE 4 YOU!
           </Heading>
 
