@@ -1,5 +1,5 @@
 .container {
-  padding: 0 3rem;
+  padding:  0rem;
 }
 
 .main {
@@ -35,10 +35,6 @@
   font-size: 25px;
 }
 
-.connect {
-  margin-bottom: 3rem;
-  width: 300px;
-}
 
 .description {
   margin-top: 1rem;
@@ -47,14 +43,7 @@
   font-size: 1.25rem;
 }
 
-.code {
-  background: #3A619C;
-  border-radius: 5px;
-  padding: .3rem;
-  font-size: 1.15rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
+
 
 .grid {
   display: flex;
@@ -109,9 +98,8 @@
 
 
 
-.card,
-.footer {
-  border-color: #ffffff;
+.card {
+  border-color: #750a0a;
 }
 
 
@@ -150,50 +138,24 @@
 }
 
 
-.imageContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.leftImage {
-  width: 100px; /* Adjust the width of the left image as desired */
-  height: auto; /* Adjust the height of the left image as desired */
-}
-
-.rightImage {
-  width: 100px; /* Adjust the width of the right image as desired */
-  height: auto; /* Adjust the height of the right image as desired */
-}
-
 .outerContainer {
+  background: linear-gradient(to right,);
+}
+
+.innerContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .imageContainer {
-  width: 100px;
-  height: 100px;
   display: flex;
   align-items: center;
+}
+
+.imageContainer {
+  width: 300px;
+  height: 110px;
+  display: flex;
   justify-content: center;
-}
-
-/* Adjust the width value according to your desired width */
-.widerContainer {
-  width: 800px;
-}
-
-.largeText {
-  font-size: 50px; /* Adjust the font size according to your desired size */
-  font-weight: bold;
-}
-
-.boldText {
-  font-weight: bold;
-}
-
-.centered {
-  text-align: center;
 }

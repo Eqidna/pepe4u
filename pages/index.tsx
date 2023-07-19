@@ -47,11 +47,11 @@ const Home: NextPage = () => {
       
       ) : (
         <Container maxW="1200px" centerContent>
-          <Heading color="white" fontSize="100px">
+          <Heading color="white" fontSize="60px">
             PEPE 4 YOU!
           </Heading>
 
-          <Flex h="10vh" justifyContent="center" alignItems="center">
+          <Flex h="20vh" justifyContent="center" alignItems="center">
             <Heading color="white" fontSize="25px">
               Please connect your wallet to continue!
             </Heading>
@@ -453,7 +453,7 @@ const Home: NextPage = () => {
         </div>
 
         <div>
-  <Flex h="10vh" justifyContent="center" alignItems="center" mb={4}>
+  <Flex h="25vh" justifyContent="center" alignItems="center" mb={4}>
     <p
       style={{
         color: "white",
@@ -466,7 +466,7 @@ const Home: NextPage = () => {
       Pepe4U coin has no association with Matt Furie or his creation Pepe the Frog.
     </p>
   </Flex>
-  <Flex h="10vh" justifyContent="center" alignItems="center" mb={4}>
+  <Flex h="25vh" justifyContent="center" alignItems="center" mb={4}>
     <p
       style={{
         color: "white",
@@ -492,7 +492,22 @@ const Home: NextPage = () => {
       marginBottom: "20px", // Increase the margin bottom for larger spacing
     }}
   >
-    $PEPE4U is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is completely useless and for entertainment purposes only.
+    $PEPE4U is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. 
+  </p>
+</div>
+
+<div>
+  <p
+    style={{
+      color: "white",
+      fontWeight: "bold",
+      fontSize: "20px",
+      wordWrap: "break-word",
+      maxWidth: "500px",
+      marginBottom: "20px", // Increase the margin bottom for larger spacing
+    }}
+  >
+    The coin is completely useless and for entertainment purposes only.
   </p>
 </div>
 
