@@ -9,7 +9,7 @@ import Image from "next/image";
 import LeftImage from "../assets/left-image.png";
 import RightImage from "../assets/right-image.png";
 import MemecoinImage from "../assets/memecoin-image.png";
-import GifImage from "../assets/your-gif-image.gif";
+import GifImage from "../assets/meta-chart (1).png";
 import TokenomicsImage2 from "../assets/TokenomicsG.png";
 import LeftImage2 from "../assets/pepe-frog.gif";
 import RightImage2 from "../assets/pepe-thank-you.gif";
@@ -232,6 +232,24 @@ const Home: NextPage = () => {
   </a>
 </div>
 
+<div className={styles.grid}>
+  <a
+    href="https://www.dextools.io/app/en/polygon/pair-explorer/0x364cec393abbda65f887e497dfbdcc2a5a0fd66f"
+    className={`${styles.card} ${styles.sameSize}`}
+    target="_blank"
+  >
+    <h2
+      className={`${styles.heading} ${styles.boldText} ${styles.centered}`}
+      style={{ color: "white", fontSize: "20px" }}
+    >
+      DEXTOOLS $PEPE4U
+    </h2>
+    <p className={styles.paragraph} style={{ color: "white" }}>
+      Everything in one place.
+    </p>
+  </a>
+</div>
+
 <div className={styles.connect}></div>
 <div className={styles.grid}>
   <a
@@ -262,7 +280,7 @@ const Home: NextPage = () => {
                 <Image
                   src={GifImage}
                   alt="GIF Image"
-                  width={300} // Set the desired width of the image
+                  width={650} // Set the desired width of the image
                   height={300} // Set the desired height of the image
                 />
               </div>
