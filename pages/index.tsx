@@ -302,8 +302,8 @@ const Home: NextPage = () => {
               <Image
                 src={LeftImage3}
                 alt="Left Image"
-                width={100}
-                height={100}
+                width={120}
+                height={120}
               />
             </div>
             <a
@@ -368,14 +368,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </a>
-            <div className={styles.imageContainer}>
-              <Image
-                src={GifImage}
-                alt="GIF Image"
-                width={100} // Set the desired width of the image
-                height={100} // Set the desired height of the image
-              />
-            </div>
+           
           </div>
         </div>
 
@@ -415,8 +408,8 @@ const Home: NextPage = () => {
               <Image
                 src={RightImage}
                 alt="Right Image"
-                width={100}
-                height={100}
+                width={120}
+                height={120}
               />
             </div>
           </div>
@@ -428,8 +421,8 @@ const Home: NextPage = () => {
               <Image
                 src={LeftImage}
                 alt="Left Image"
-                width={100}
-                height={100}
+                width={103}
+                height={103}
               />
             </div>
 
@@ -457,8 +450,8 @@ const Home: NextPage = () => {
               <Image
                 src={RightImage2}
                 alt="Right Image"
-                width={100}
-                height={100}
+                width={130}
+                height={130}
               />
             </div>
           </div>
@@ -471,7 +464,7 @@ const Home: NextPage = () => {
         </div>
 
         <div>
-  <Flex h="25vh" justifyContent="center" alignItems="center" mb={4}>
+  <Flex h="15vh" justifyContent="center" alignItems="center" mb={4}>
     <p
       style={{
         color: "white",
@@ -484,7 +477,7 @@ const Home: NextPage = () => {
       Pepe4U coin has no association with Matt Furie or his creation Pepe the Frog.
     </p>
   </Flex>
-  <Flex h="25vh" justifyContent="center" alignItems="center" mb={4}>
+  <Flex h="15vh" justifyContent="center" alignItems="center" mb={4}>
     <p
       style={{
         color: "white",
@@ -500,6 +493,7 @@ const Home: NextPage = () => {
 </div>
 
 <div>
+<Flex h="15vh" justifyContent="center" alignItems="center" mb={4}>
   <p
     style={{
       color: "white",
@@ -512,6 +506,7 @@ const Home: NextPage = () => {
   >
     $PEPE4U is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. 
   </p>
+  </Flex>
 </div>
 
 <div>
