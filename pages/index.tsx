@@ -7,7 +7,7 @@ import Pepe4uBalance from "../components/pepe4uBalance";
 import Mint from "../components/Mint";
 import Image from "next/image";
 import LeftImage from "../assets/left-image.png";
-import RightImage from "../assets/right-image.png";
+import RightImage from "../assets/Logopit_1688873178332.png";
 import MemecoinImage from "../assets/memecoin-image.png";
 import GifImage from "../assets/meta-chart (1).png";
 import TokenomicsImage2 from "../assets/TokenomicsG.png";
