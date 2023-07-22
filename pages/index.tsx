@@ -337,8 +337,8 @@ const Home: NextPage = () => {
               <Image
                 src={RightImage}
                 alt="Right Image"
-                width={100}
-                height={100}
+                width={130}
+                height={130}
               />
             </div>
             <a
