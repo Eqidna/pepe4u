@@ -15,6 +15,7 @@ import LeftImage2 from "../assets/pepe-frog.gif";
 import RightImage2 from "../assets/pepe-thank-you.gif";
 import LeftImage3 from "../assets/pepe-peppo.gif";
 import AirdropEligibilityChecker from "../components/Eligibility";
+import LeftImage4 from "../assets/your-gif-image.gif";
 
 const contractAddress = "0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41";
 
@@ -326,14 +327,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </a>
-            <div className={styles.imageContainer}>
-              <Image
-                src={RightImage}
-                alt="Right Image"
-                width={100}
-                height={100}
-              />
-            </div>
+           
           </div>
         </div>
 
@@ -341,8 +335,8 @@ const Home: NextPage = () => {
           <div className={styles.outerContainer}>
             <div className={styles.imageContainer}>
               <Image
-                src={LeftImage}
-                alt="Left Image"
+                src={RightImage}
+                alt="Right Image"
                 width={100}
                 height={100}
               />
@@ -404,14 +398,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
             </a>
-            <div className={styles.imageContainer}>
-              <Image
-                src={RightImage}
-                alt="Right Image"
-                width={120}
-                height={120}
-              />
-            </div>
+            
           </div>
         </div>
 
@@ -419,7 +406,7 @@ const Home: NextPage = () => {
           <div className={styles.outerContainer}>
             <div className={styles.imageContainer}>
               <Image
-                src={LeftImage}
+                src={LeftImage4}
                 alt="Left Image"
                 width={103}
                 height={103}
@@ -493,7 +480,7 @@ const Home: NextPage = () => {
 </div>
 
 <div>
-<Flex h="15vh" justifyContent="center" alignItems="center" mb={4}>
+<Flex h="10vh" justifyContent="center" alignItems="center" mb={4}>
   <p
     style={{
       color: "white",
@@ -508,7 +495,14 @@ const Home: NextPage = () => {
   </p>
   </Flex>
 </div>
-
+<div className={styles.imageContainer}>
+              <Image
+                src={LeftImage}
+                alt="Left Image"
+                width={125}
+                height={125}
+              />
+            </div>
 <div>
   <p
     style={{
@@ -522,7 +516,10 @@ const Home: NextPage = () => {
   >
     The coin is completely useless and for entertainment purposes only.
   </p>
+  
 </div>
+
+
 
       </Container>
     </>
