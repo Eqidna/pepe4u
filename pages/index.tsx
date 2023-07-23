@@ -16,6 +16,7 @@ import RightImage2 from "../assets/pepe-thank-you.gif";
 import LeftImage3 from "../assets/pepe-peppo.gif";
 import AirdropEligibilityChecker from "../components/Eligibility";
 import LeftImage4 from "../assets/your-gif-image.gif";
+import React from 'react';
 
 const contractAddress = "0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41";
 
@@ -144,11 +145,7 @@ const Home: NextPage = () => {
                 $Pepe4U holds the key to the future, eagerly awaiting your
                 arrival. 
               </p>
-              <iframe
-                          height="100%"
-                          width="100%"
-                          src="https://dexcheck.ai/app/polygon/chart/0x364cec393abbda65f887e497dfbdcc2a5a0fd66f?embed=true"
-                        ></iframe>
+             
               <div style={{ position: "relative" }}>
                 <Image
                   src={RightImage}
@@ -198,6 +195,8 @@ const Home: NextPage = () => {
               </div>
               
             </Flex>
+            
+
             
             <div className={styles.connect}></div>
 <div className={styles.grid}>
