@@ -6,17 +6,18 @@ import Airdrop from "../components/Airdrop";
 import Pepe4uBalance from "../components/pepe4uBalance";
 import Mint from "../components/Mint";
 import Image from "next/image";
-import LeftImage from "../assets/left-image.png";
-import RightImage from "../assets/Logopit_1688873178332.png";
-import MemecoinImage from "../assets/memecoin-image.png";
+import LeftImage from "../assets/Logopit_1690200637187.png";
+import RightImage from "../assets/Logopit_1690200637187.png";
+import MemecoinImage from "../assets/Logopit_1690200637187.png";
 import GifImage from "../assets/meta-chart (1).png";
 import TokenomicsImage2 from "../assets/TokenomicsG.png";
-import LeftImage2 from "../assets/pepe-frog.gif";
-import RightImage2 from "../assets/pepe-thank-you.gif";
-import LeftImage3 from "../assets/pepe-peppo.gif";
+import LeftImage2 from "../assets/Logopit_1690200637187.png";
+import RightImage2 from "../assets/Logopit_1690200637187.png";
+import LeftImage3 from "../assets/Logopit_1690200637187.png";
 import AirdropEligibilityChecker from "../components/Eligibility";
-import LeftImage4 from "../assets/your-gif-image.gif";
+import LeftImage4 from "../assets/Logopit_1690200637187.png";
 import React from 'react';
+import DexCheck from "../components/DexChart";
 
 const contractAddress = "0xD4B35b6Cc6aa684Cb2BB4113cDFc19d5ffFF7c41";
 
@@ -41,6 +42,9 @@ const Home: NextPage = () => {
           </Box>
           <Box>
             <Mint />
+          </Box>
+          <Box>
+           
           </Box>
           
         </Flex>
@@ -118,7 +122,7 @@ const Home: NextPage = () => {
                 src={MemecoinImage}
                 alt="Memecoin Image"
                 width={200} // Set the desired width of the image
-                height={150} // Set the desired height of the image
+                height={200} // Set the desired height of the image
               />
             </div>
             <Flex alignItems="center" flexWrap="wrap">
@@ -170,18 +174,26 @@ const Home: NextPage = () => {
                 />
               </div>
               <p
-                className={`${styles.description} ${styles.reduceSpace}`}
-                style={{
-                  color: "white",
-                  wordWrap: "break-word",
-                  fontWeight: "bold",
-                  flex: "1",
-                  margin: "0 20px",
-                }}
-              >
-                Brace yourself to reshape the rules, surpass your
-                limits, and ascend to legendary status!
-              </p>
+  className={`${styles.description} ${styles.reduceSpace}`}
+  style={{
+    color: "white",
+    wordWrap: "break-word",
+    fontWeight: "bold",
+    flex: "1",
+    margin: "0 20px",
+  }}
+>
+  Brace yourself to reshape the rules, surpass your limits.
+  <br /><br />
+  Follow these steps to obtain legendary status!
+  <ul>
+    <li>Claim your PEPE4U Airdrop.</li>
+    <li>HODL your PEPE4U.</li>
+    <li>Mint your 2% PEPE4U interest every 30 days.</li>
+  </ul>
+</p>
+
+              
               
               <div style={{ position: "relative" }}>
                 <Image
@@ -306,8 +318,8 @@ const Home: NextPage = () => {
               <Image
                 src={LeftImage3}
                 alt="Left Image"
-                width={120}
-                height={120}
+                width={140}
+                height={140}
               />
             </div>
             <a
@@ -340,8 +352,8 @@ const Home: NextPage = () => {
               <Image
                 src={RightImage}
                 alt="Right Image"
-                width={100}
-                height={100}
+                width={140}
+                height={140}
               />
             </div>
             <a
@@ -375,8 +387,8 @@ const Home: NextPage = () => {
               <Image
                 src={LeftImage2}
                 alt="Left Image"
-                width={100}
-                height={100}
+                width={140}
+                height={140}
               />
             </div>
             <a
@@ -411,8 +423,8 @@ const Home: NextPage = () => {
               <Image
                 src={LeftImage4}
                 alt="Left Image"
-                width={103}
-                height={103}
+                width={140}
+                height={140}
               />
             </div>
 
@@ -440,8 +452,8 @@ const Home: NextPage = () => {
               <Image
                 src={RightImage2}
                 alt="Right Image"
-                width={130}
-                height={130}
+                width={250}
+                height={250}
               />
             </div>
           </div>
@@ -458,13 +470,13 @@ const Home: NextPage = () => {
     <p
       style={{
         color: "white",
-        fontSize: "20px",
+        fontSize: "22px",
         fontWeight: "bold",
         wordWrap: "break-word",
         maxWidth: "500px",
       }}
     >
-      Pepe4U coin has no association with Matt Furie or his creation Pepe the Frog.
+      PEPE4U COIN is for the people, by the people!
     </p>
   </Flex>
   <Flex h="15vh" justifyContent="center" alignItems="center" mb={4}>
@@ -477,7 +489,7 @@ const Home: NextPage = () => {
         maxWidth: "500px",
       }}
     >
-      This token is simply paying homage to a meme we all love and recognize.
+      You can receive this coin through a completely free airdrop, with the only condition being that you possess Polygon Matic to cover the gas fees.
     </p>
   </Flex>
 </div>
@@ -498,14 +510,7 @@ const Home: NextPage = () => {
   </p>
   </Flex>
 </div>
-<div className={styles.imageContainer}>
-              <Image
-                src={LeftImage}
-                alt="Left Image"
-                width={125}
-                height={125}
-              />
-            </div>
+
 <div>
   <p
     style={{
