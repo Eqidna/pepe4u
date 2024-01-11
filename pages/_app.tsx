@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div
       style={{
-        background: "linear-gradient(to right, #23253e, #BED6FE, #23253e )",
+        background: "linear-gradient(to right, #438642, #71B974, #438642 )",
       }}
       >
       < ThirdwebProvider
